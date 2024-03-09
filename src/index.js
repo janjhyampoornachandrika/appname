@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import result from './result.js';
-import App1 from "./App1";
+import App9 from "./App9";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render
 
 (
   <React.StrictMode>
-    <App1/>
+    <App9/>
   </React.StrictMode>  
  
 );
