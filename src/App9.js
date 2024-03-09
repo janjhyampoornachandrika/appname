@@ -8,7 +8,7 @@ export default function Login1() {
         let pass = document.getElementById('t2').value.trim();
         console.log(name)
         console.log(pass)
-        if (name === 'john' && pass === 'pass1234') {
+        if (name === 'john' && pass === 'pass') {
             setAccessState({ access: 'Access granted', className: 'success' });
         } else {
             setAccessState({ access: 'Access Denied', className: 'fail' });
