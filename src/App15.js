@@ -9,7 +9,7 @@ export default function App15() {
         <Link to="/">Feeds</Link> | <Link to="/post">Post</Link>
         <Routes>
             <Route path="/" index element={<Feeds/>}></Route>
-            <Route path="/post" element={<Post/>}></Route>
+            <Route path="/post"  element={<Post/>}></Route>
         </Routes>
       </Router>
     </div>
