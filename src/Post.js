@@ -1,7 +1,13 @@
 import React from 'react'
-
-export default function Posts() {
+import { useNavigate } from 'react-router-dom'
+export default function Post() {
+  const Navigate = useNavigate()
+  const goToFeeds = () => {
+    Navigate('/')
+  }
   return (
-    <div>Posts</div>
+    <div>Post
+      <button onClick={goToFeeds}>Go to Feeds</button>
+    </div>
   )
 }
